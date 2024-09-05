@@ -1,0 +1,15 @@
+To run the nodejs examples:
+
+First run the server:
+```bash
+cd nodejs/server
+npm init    # only required the first time
+node hwserver.js
+```
+
+Then in another terminal window, run the client
+```bash
+cd nodejs/client
+npm init    # only required the first time
+node hwclient.js
+```
